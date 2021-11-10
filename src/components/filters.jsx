@@ -26,7 +26,7 @@ export default class Filters extends Component {
   }
 
   filterValue(filterId) {
-    return this.state.query[filterId] ? this.state.query[filterId] : "-";
+    return this.state.query[filterId] ? this.state.query[filterId] : "Any";
   }
 
   render() {
