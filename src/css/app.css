@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200;300;600&display=swap");
+
+* {
+  font-family: "Azeret Mono", monospace;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: overlay;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background-image: url(../assets/backgrounds/gradient.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.9);
+  background-position: center;
+}
+
+#root {
+  overflow: hidden;
+}
+
+#loading {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#flow {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 490px;
+  overflow-y: scroll;
+  padding: 10px;
+
+  background: linear-gradient(transparent 33%, rgba(190, 213, 229, 0)),
+    linear-gradient(rgba(190, 213, 229, 0), transparent 66%) 0 100%,
+    radial-gradient(
+      farthest-side at 50% 0,
+      rgba(34, 34, 34, 0.5),
+      rgba(0, 0, 0, 0)
+    ),
+    radial-gradient(
+        farthest-side at 50% 100%,
+        rgba(34, 34, 34, 0.5),
+        rgba(0, 0, 0, 0)
+      )
+      0 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+  background-size: 100% 33px, 100% 33px, 100% 11px, 100% 11px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 80%;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #246085;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #246085;
+}

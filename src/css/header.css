@@ -1,0 +1,44 @@
+#header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background: rgba(255 255 255 / 30%);
+  box-shadow: 0 0 8px 1px rgba(0 0 0 / 30%);
+  user-select: none;
+}
+
+#header > img {
+  width: 8vh;
+  margin-left: 1vw;
+}
+
+#header > a {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 0 0 3px rgba(0 0 0 / 30%);
+  margin: 0 0 0 1vw;
+}
+
+#header > button {
+  background-color: #444;
+  border: 1px solid #888;
+  border-radius: 5px;
+  margin: 0 2vw 0 auto;
+  padding: 10px 20px;
+  color: #eee;
+  font-family: "Azeret Mono", monospace;
+  font-weight: bold;
+  transition: all 250ms;
+  cursor: pointer;
+}
+
+#header > button:hover {
+  background-color: #333;
+  box-shadow: 0 0 5px 1px rgba(0 0 0 / 30%);
+}
+
+#header > button:active {
+  background-color: #222;
+  box-shadow: 0 0 8px 1px rgba(0 0 0 / 30%);
+}

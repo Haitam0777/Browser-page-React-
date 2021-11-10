@@ -2,18 +2,19 @@
 This repo was used to support [our idea](https://2021.spaceappschallenge.org/challenges/statements/ontologies-and-interactive-network-visualizations/teams/aiacspace) for the [NASA Space Apps Challenge 2021](https://2021.spaceappschallenge.org/).
 
 **Live App**: http://aiacspace.club/
+**repo App**:https://github.com/khadijalahy1/NasaSpaceApps2021-aiacSpace.git
 
-![Logo](./assets/images/header-img.png)
+![Logo](./src/assets/icons/app_logo.svg)
 
 ### Ontology
 To build this project the following ontology was designed
 
-![ontology](./assets/images/ontology.PNG)
+![ontology](./src/assets/images/ontology.PNG)
 
 ### Metadata
 From the Following ontology the metadata of the data will be as follows
 
-![metadata](./assets/images/metadata.PNG)
+![metadata](./src/assets/images/metadata.PNG)
 
 
 ### Dataset
@@ -51,8 +52,8 @@ Analyzing NASA and other agencies data we've found that all the data that is ava
 **IMPLEMENTATION**
 DATA4∀1 is a webApp which is displaying all the filters that the user will need through a network  visualization.
 
-![Target coasts](./assets/images/demo.PNG)
-![Target coasts1](./assets/images/browse-page.jpeg)
+![Target coasts](./src/assets/images/demo.PNG)
+![Target coasts1](./src/assets/images/browse.jpeg)
 
 
 
@@ -63,6 +64,3 @@ DATA4∀1 is a webApp which is displaying all the filters that the user will nee
 
 
 
-**SLIDES (IN ITALIAN)**
-- [Google Slides](https://docs.google.com/presentation/d/1xGzQmBT6G2UO9qItEUL0zC4gaOrn_qi31d9xkonL3ms/edit#slide=id.gf5887f1cc4_3_2070)
-- [Video Rendering](./assets/video/rendering.mp4)
